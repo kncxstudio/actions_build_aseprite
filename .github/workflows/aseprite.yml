@@ -10,7 +10,7 @@ on:
           default: 'YES!'
 jobs:
   build-win:
-    runs-on: windows-2019
+    runs-on: windows-2019 
     steps:
     - uses: actions/checkout@v2
     - uses: seanmiddleditch/gha-setup-ninja@master
